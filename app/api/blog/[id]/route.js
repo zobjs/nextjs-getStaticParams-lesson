@@ -1,8 +1,7 @@
+// /app/api/blog/[id]/route.js
 import { NextResponse } from 'next/server';
 import connectDB from '@/app/libs/connectDB';
 import Blog from '@/app/models/blog.schema';
-
-
 
 
 // Get a specific blog by ID
